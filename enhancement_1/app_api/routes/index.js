@@ -3,6 +3,9 @@ const router = express.Router();
 const jwt = require('jsonwebtoken'); // Enable JSON Web Tokens
 
 const tripsController = require("../controllers/trips");
+const mealsController = require("../controllers/meals");
+const roomsController = require("../controllers/rooms");
+const newsController = require("../controllers/news");
 const authController = require("../controllers/authentication");
 
 // Method to authenticate our JWT
@@ -66,5 +69,45 @@ router
     .get(tripsController.tripsFindByCode)                       // Get Method routes tripsFindByCode - requires parameter
     .put(authenticateJWT, tripsController.tripsUpdateTrip)      // PUT Method routes tripsUpdateTrip - requires parameter
     .delete(authenticateJWT, tripsController.tripsDeleteTrip);  // DELETE Method routes tripsDeleteTrip - requires parameter
+
+// define route for our meals endpoint
+router
+    .route("/meals")
+    .get(mealsController.mealsList)                             // GET Method routes mealList
+    .post(authenticateJWT, mealsController.mealsAddMeal);       // POST Method adds a meal
+
+
+// define route for our meals/:mealcode endpoint
+router
+    .route('/meals/:mealCode')
+    .get(mealsController.mealsFindByCode)                       // GET Method routes mealsFindByCode - requries parameter
+    .put(authenticateJWT, mealsController.mealsUpdateMeal)      // PUT Method routes mealsUpdateMeal - requires parameter
+    .delete(authenticateJWT, mealsController.mealsDeleteMeal);  // DELETE Method routes mealsDeleteMeal - requires parameter
+
+// define route for our rooms endpoint
+router
+    .route("/rooms")
+    .get(roomsController.roomsList)                             // GET Method routes roomList
+    .post(authenticateJWT, roomsController.roomsAddRoom);       // POST Method adds a room
+
+// define route for our rooms/:roomcode endpoint
+router
+    .route("/rooms/:roomCode")
+    .get(roomsController.roomsFindByCode)                       // GET Method routes roomsFindByCode - requires parameter
+    .put(authenticateJWT, roomsController.roomsUpdateRoom)      // PUT Method routes roomsUpdateRoom - requires parameter
+    .delete(authenticateJWT, roomsController.roomsDeleteRooom); // DELETE Method routes roomsDeleteRoom - requires parameter
+
+// define route for our news endpoint
+router
+    .route("/news")
+    .get(newsController.newsList)                               // GET Method routes newsList
+    .post(authenticateJWT, newsController.newsAddNews);         // POST Method adds a news
+
+// define route for our news/:newsCode endpoint
+router
+    .route("/news/:newsCode")
+    .get(newsController.newsFindByCode)                         // GET Method routes newsFindByCode - requires parameter
+    .put(authenticateJWT, newsController.newsUpdateNews)        // PUT Method routes newsUpdateNews - requires parameter
+    .delete(authenticateJWT, newsController.newsDeleteNews);    // DELETE Method routes newsDeleteNews - requires parameter
 
 module.exports = router;

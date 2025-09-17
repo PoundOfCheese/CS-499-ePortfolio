@@ -1,0 +1,9 @@
+<div *ngIf="isLoggedIn()">
+    <button (click)="addNews()" class="btn btn-info"
+        style="margin-bottom: 5px">Add News</button>
+</div>
+<div class="row">
+    <div *ngFor="let article of news" class="col-md-4">
+        <app-news-card [news]="article" class="card-deck mt-2"></app-news-card>
+    </div>
+</div>

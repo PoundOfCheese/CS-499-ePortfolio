@@ -1,0 +1,9 @@
+<div *ngIf="isLoggedIn()">
+    <button (click)="addMeal()" class="btn btn-info"
+        style="margin-bottom: 5px">Add Trip</button>
+</div>
+<div class="row">
+    <div *ngFor="let meal of meals" class="col-md-4">
+        <app-meal-card [meal]="meal" class="card-deck mt-2"></app-meal-card>
+    </div>
+</div>
