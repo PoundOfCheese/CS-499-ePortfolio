@@ -2,7 +2,7 @@ name: Build and Deploy Jekyll Site
 
 on:
   push:
-    branches: [gh-pages] # or master if that's your default branch
+    branches: [gh-pages]
 
 permissions:
   contents: write
@@ -17,34 +17,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1
 
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
+      - run: gem install bundler
+      - run: bundle install
 
-      - name: Build Jekyll site
-        run: bundle exec jekyll build
+      - run: bundle exec jekyll build
 
-      - name: Upload GitHub Pages artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
+          artifact-name: github-pages
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v2
