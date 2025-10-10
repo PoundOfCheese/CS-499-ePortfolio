@@ -3,12 +3,12 @@ layout: home
 title: CS 499 ePortfolio
 ---
 
-# Professional Self-Assessment
+## Professional Self-Assessment
 
-# Code Review
+## Code Review
 
-# Software Design and Engineering Enhancement
+## Software Design and Engineering Enhancement
 
-# Algorithms and Data Structures Enhancement
+## Algorithms and Data Structures Enhancement
 
-# Databases Enhancement
+## Databases Enhancement
