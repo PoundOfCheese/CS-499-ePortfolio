@@ -1,0 +1,9 @@
+<div *ngIf="isLoggedIn()">
+    <button (click)="addRoom()" class="btn btn-info"
+        style="margin-bottom: 5px">Add Room</button>
+</div>
+<div class="row">
+    <div *ngFor="let room of rooms" class="col-md-4">
+        <app-room-card [room]="room" class="card-deck mt-2"></app-room-card>
+    </div>
+</div>

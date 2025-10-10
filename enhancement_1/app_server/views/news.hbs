@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>News - Travlr Getaways Website Template</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="background">
+		<div id="page">
+			{{> header }}
+			<div id="contents">
+				<div class="box">
+					<div>
+						<div id="news" class="body">
+							<div class="sidebar">
+								<h3>Tips</h3>
+								<ul>
+									<li>
+										<a href="/news">What to bring on the beach?</a>
+										<a href="/news">Planning Fun Activities</a>
+										<a href="/news">Diving Checklist</a>
+										<a href="/news">First Aid</a>
+										<a href="/news">How to Build a Sand Castle?</a>
+										<a href="/news">Tanning Tips</a>
+									</li>
+								</ul>
+                            </div>
+                            <div>
+								<h1>News</h1>
+			{{#each newsList}}
+								<a href="/news"><img src="images/{{this.image}}" alt="Img"></a>
+								<h2><a href="/news">{{this.headline}}</a></h2>
+								<span class="time">{{this.date}}<br>By: {{this.author}}</span>
+								{{this.description}}
+			{{/each}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{> footer }}
+	</div>
+</body>
+</html>

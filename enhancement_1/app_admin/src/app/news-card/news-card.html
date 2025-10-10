@@ -1,0 +1,21 @@
+<div class="card">
+    <div class="card-header">{{ news.headline }}</div>
+    <img src="assets/images/{{ news.image }}"
+        alt="news thumbnail" class="card-img-top">
+    <div class="card-body">
+        <h6 class="card-subtitle mb-2 text-muted">
+            By: {{ news.author }}
+        </h6>
+        <h6 class="card-subtitle mb-2 text-muted">
+            By: {{ news.date }}
+        </h6>
+        <p class="card-text" [innerHTML]="news.description">
+        </p>
+        <div *ngIf="isLoggedIn()">
+            <button (click) = "editNews(news)" class="btn btn-info"
+                style="margin-right: 5px; margin-bottom: 5px">Edit News</button>
+            <button (click) = "deleteNews(news)" class="btn btn-danger"
+                style="margin-bottom: 5px">Delete News</button>
+        </div>
+    </div>
+</div>
