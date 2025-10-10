@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Artifact 1
+title: Enhancement 1
 ---
 
 Test Paragraph
