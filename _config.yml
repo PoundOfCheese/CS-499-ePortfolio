@@ -1,8 +1,12 @@
-theme: minima
+# theme: minima
 
 title: Carson Mann CS 499 ePortfolio
 description: Computer Science Program Portfolio
 url: "https://poundofcheese.github.io"
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  
 minima:
   skin: dark
