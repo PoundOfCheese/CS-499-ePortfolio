@@ -1,6 +1,6 @@
 ---
 layout: home
-title: CS 499 ePortfolio
+title: SNHU Computer Science ePortfolio
 ---
 
 ## Professional Self-Assessment
