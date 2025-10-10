@@ -11,3 +11,8 @@ url: "https://poundofcheese.github.io"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+minima:
+  skin: dark
+
+hide_site_feed_link: true
