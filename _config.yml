@@ -3,3 +3,6 @@ theme: minima
 title: Carson Mann CS 499 ePortfolio
 description: Computer Science Program Portfolio
 url: "https://poundofcheese.github.io"
+
+minima:
+  skin: dark
