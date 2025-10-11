@@ -11,6 +11,7 @@ title: SNHU Computer Science ePortfolio
 
 ## Software Design and Engineering Enhancement
 > This artifact is a Full Stack Web Application created for CS 465 Full Stack Development 1.
+> ![Original Artifact 1 Admin SPA](assets/images/original_artifact1_2.JPG "Original Admin SPA")
 > Enhancement 1 breakdown: [link](enhancement_1.md)
 
 ## Algorithms and Data Structures Enhancement
