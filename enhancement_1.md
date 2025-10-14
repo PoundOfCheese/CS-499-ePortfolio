@@ -10,4 +10,6 @@ When looking at how I could improve the artifact, I thought about the functional
 ![Enhancement 1 Admin SPA](assets/images/enhancement1_1.jpg "Enhannced Admin SPA")
 ![Enhancement 1 Admin SPA 2](assets/images/enhancement1_2.jpg "Enhannced Admin SPA 2")
 > Enhanced Dashboard. Allows modifying Trips, Meals, Rooms, and News. Navbar highlights which page is active.
+
 ![Consumer Express Website](assets/images/original_artifact1_3.jpg "Consumer Express Website")
+> Express consumer-facing website. Data can be modified from the Admin SPA.
