@@ -19,8 +19,10 @@ title: SNHU Computer Science ePortfolio
 > This artifact is an Intelligent Agent that learns to solve a Treasure Maze Game. It was created for CS 370 Current/Emerging Trends in CS.
 >
 > ![Original Artifact 2 Code Snippet](assets/images/original_artifact2_1.jpg "Original Artifact 2 Code Snippet")
+> Enhancement 2 breakdown: [link](enhancement_2.md)
   
 ## Databases Enhancement
 > This artifact is a Python Dashboard and CRUD Module that interface with an animal shelter database. It was created for CS 340 Client/Server Development
 > 
 > ![Original Artifact Dashboard](assets/images/cs_340_original_dashboard.JPG "Original Dashboard")
+> Enhancement 3 breakdown: [link](enhancement_3.md)
