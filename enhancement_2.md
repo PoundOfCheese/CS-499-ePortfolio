@@ -8,10 +8,10 @@ The artifact I chose for this enhancement is a Treasure Maze Game intelligent ag
 > ![Original DQN Training Loop](assets/images/original_artifact2_1.jpg "Original DQN Training Loop")
 > 
 > Original Deep Q-Network training loop.
-> 
-![Original GameExperience Object](assets/images/original_artifact2_2.jpg "Original GameExperience Object")
+
+> ![Original GameExperience Object](assets/images/original_artifact2_2.jpg "Original GameExperience Object")
+>
 > Original GameExperience object.
-> 
 
 My planned enhancements to this artifact were implementing epsilon decay and expanding the DQN to a Double Deep Q-Learning algorithm. Implementing both of these enhancements demonstrates my ability to evaluate a solution and determine what improvements can be made. They are more advanced AI training techniques that are meant to increase the efficiency of training and the strength of the resulting agent. After starting work on the enhancement, I realized that more changes were needed. The original artifact was created on a remote VM. When I tried running the code on my own computer, it was taking orders of magnitude longer to complete than it was on the remote computer. If I was going to get the code to run and successfully train the agent, I was going to need to make more changes. I increased the data and max memory sizes to better take advantage of my GPU. I changed the training process to train a batch of experiences once per epoch instead of training every episode of every epoch. I changed the “GameExperience” object to create a batch of predictions by each model once per “get_data” call instead of a separate predict call for each state.
 
