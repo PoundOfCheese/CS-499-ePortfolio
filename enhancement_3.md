@@ -23,3 +23,7 @@ After starting the enhancement, I realized that I could do more work to make the
 > Added a collapsible input form that allows for creating an entry in the database.
 
 These additions make the dashboard much more visually appealing and prevent the many input fields from taking up space on the screen in its default state. I think this reinforces my initial goals of consumer-oriented and accessible systems design while still implementing the additional database functionality. A challenge I faced in enhancing this artifact was getting my environment set up correctly. I did not know the original versions of every module used in the virtual machine in CS 340. When I was setting up my environment, I ran into issues where certain functions had been deprecated or changed in the versions I was using. This required additional work to find versions that allowed me to use the functions I was trying to without making sweeping changes to how the dashboard worked. I learned more about how Dash works and how to create better callbacks than I had initially created in the original artifact.
+
+Original Artifact 3 Code: [link](https://github.com/PoundOfCheese/CS-499-ePortfolio/tree/main/original_artifact_3)
+
+Enhancement 3 Code: [link](https://github.com/PoundOfCheese/CS-499-ePortfolio/tree/main/enhancement_3)
