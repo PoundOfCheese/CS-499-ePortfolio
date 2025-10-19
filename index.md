@@ -15,6 +15,10 @@ title: SNHU Computer Science ePortfolio
 > ![Original Artifact 1 Admin SPA](assets/images/original_artifact1_2.JPG "Original Admin SPA")
 >
 > Enhancement 1 breakdown: [link](enhancement_1.md)
+> 
+> Original Artifact 1 Code: [link](https://github.com/PoundOfCheese/CS-499-ePortfolio/tree/main/original_artifact_1)
+>
+> Enhancement 1 Code: [link](https://github.com/PoundOfCheese/CS-499-ePortfolio/tree/main/enhancement_1)
   
 ## Algorithms and Data Structures Enhancement
 > This artifact is an Intelligent Agent that learns to solve a Treasure Maze Game. It was created for CS 370 Current/Emerging Trends in CS.
@@ -22,6 +26,10 @@ title: SNHU Computer Science ePortfolio
 > ![Original Artifact 2 Code Snippet](assets/images/original_artifact2_1.jpg "Original Artifact 2 Code Snippet")
 >
 > Enhancement 2 breakdown: [link](enhancement_2.md)
+> 
+> Original Artifact 2 Code: [link](https://github.com/PoundOfCheese/CS-499-ePortfolio/tree/main/original_artifact_2)
+>
+> Enhancement 2 Code: [link](https://github.com/PoundOfCheese/CS-499-ePortfolio/tree/main/enhancement_2)
   
 ## Databases Enhancement
 > This artifact is a Python Dashboard and CRUD Module that interface with an animal shelter database. It was created for CS 340 Client/Server Development
@@ -29,3 +37,8 @@ title: SNHU Computer Science ePortfolio
 > ![Original Artifact Dashboard](assets/images/cs_340_original_dashboard.JPG "Original Dashboard")
 >
 > Enhancement 3 breakdown: [link](enhancement_3.md)
+>
+> Original Artifact 3 Code: [link](https://github.com/PoundOfCheese/CS-499-ePortfolio/tree/main/original_artifact_3)
+>
+> Enhancement 3 Code: [link](https://github.com/PoundOfCheese/CS-499-ePortfolio/tree/main/enhancement_3)
+
