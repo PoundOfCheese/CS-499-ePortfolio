@@ -32,4 +32,5 @@ Finally, I reduced the number of print calls to only print epoch information onc
 I learned a lot about optimizing an algorithm while enhancing this artifact. I was expecting to be able to modify the DQN to a Double DQN and implement exploration decay with relative ease. I ended up needing to put a lot of work into getting the code to run at any sort of reasonable speed on my computer, and I think this ultimately resulted in a much stronger enhancement as it displays considerably more learning than my original plans did.
 
 Original Artifact 2 Code: [link](https://github.com/PoundOfCheese/CS-499-ePortfolio/tree/main/original_artifact_2)
+
 Enhancement 2 Code: [link](https://github.com/PoundOfCheese/CS-499-ePortfolio/tree/main/enhancement_2)
