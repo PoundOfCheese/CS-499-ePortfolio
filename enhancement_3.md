@@ -5,8 +5,8 @@ title: Enhancement 3
 
 The artifact I chose for this enhancement is a Python CRUD module and web dashboard that interface with an animal rescue shelter database. I created this artifact in June 2025 as part of the course CS 340 Client/Server Development. I chose this artifact for the Databases portion of my ePortfolio because it demonstrates the creation of a database and a system with a user interface that allows for easy interaction with the database. This artifact has three main parts: the MongoDB database, the Python CRUD module, and the Python dashboard.
 
-> ![Original Dashboard 1](assets/images/original_artifact3_1.jpg "Original Dashboard")
-> ![Original Dashboard 2](assets/images/original_artifact3_2.jpg "Original Dashboard 2")
+> ![Original Dashboard 1](assets/images/cs_340_original_dashboard.JPG "Original Dashboard")
+> ![Original Dashboard 2](assets/images/cs_340_original_dashboard_2.JPG "Original Dashboard 2")
 > 
 > Original Dashboard
 
