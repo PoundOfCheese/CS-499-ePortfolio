@@ -13,16 +13,19 @@ title: SNHU Computer Science ePortfolio
 > This artifact is a Full Stack Web Application created for CS 465 Full Stack Development 1.
 > 
 > ![Original Artifact 1 Admin SPA](assets/images/original_artifact1_2.JPG "Original Admin SPA")
+>
 > Enhancement 1 breakdown: [link](enhancement_1.md)
   
 ## Algorithms and Data Structures Enhancement
 > This artifact is an Intelligent Agent that learns to solve a Treasure Maze Game. It was created for CS 370 Current/Emerging Trends in CS.
 >
 > ![Original Artifact 2 Code Snippet](assets/images/original_artifact2_1.jpg "Original Artifact 2 Code Snippet")
+>
 > Enhancement 2 breakdown: [link](enhancement_2.md)
   
 ## Databases Enhancement
 > This artifact is a Python Dashboard and CRUD Module that interface with an animal shelter database. It was created for CS 340 Client/Server Development
 > 
 > ![Original Artifact Dashboard](assets/images/cs_340_original_dashboard.JPG "Original Dashboard")
+>
 > Enhancement 3 breakdown: [link](enhancement_3.md)
