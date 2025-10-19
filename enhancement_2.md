@@ -6,6 +6,7 @@ title: Enhancement 2
 The artifact I chose for this enhancement is a Treasure Maze Game intelligent agent. I created this artifact in August 2025 as part of the course CS 370 Current/Emerging trends. I chose this artifact for the Algorithms and Data Structures portion of my ePortfolio because it demonstrates the advanced algorithms required to train an intelligent agent with Deep Q-Learning. This algorithm, as well as a few different data structures, come together to create an intelligent agent that is able to learn how to solve a maze. This artifact consists of three files: once for establishing the environment; one for managing the agent’s experience; and one for configuring the maze, agent, and network parameters as well as the Deep Q-Learning algorithm itself.
 
 > ![Original DQN Training Loop](assets/images/original_artifact2_1.jpg "Original DQN Training Loop")
+> 
 > Original Deep Q-Network training loop.
 > 
 ![Original GameExperience Object](assets/images/original_artifact2_2.jpg "Original GameExperience Object")
