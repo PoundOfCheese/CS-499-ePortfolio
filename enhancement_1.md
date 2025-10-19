@@ -20,4 +20,5 @@ When looking at how I could improve the artifact, I thought about the functional
 > Express consumer-facing website. Data can be modified from the Admin SPA.
 
 Original Artifact 1 Code: [link](https://github.com/PoundOfCheese/CS-499-ePortfolio/tree/main/original_artifact_1)
+
 Enhancement 1 Code: [link](https://github.com/PoundOfCheese/CS-499-ePortfolio/tree/main/enhancement_1)
